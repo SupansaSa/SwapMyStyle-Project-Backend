@@ -19,7 +19,7 @@ const pool = new Pool({
   port: 5432,
 });
 
-sgMail.setApiKey('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');
+sgMail.setApiKey('MY API KEY');
 
 // Middleware setup
 app.use(express.json());
